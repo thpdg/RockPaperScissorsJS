@@ -1,0 +1,41 @@
+
+
+.gameBackground {
+    background-color: bisque;
+}
+
+.container {
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 400px;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hand {
+    width: 100px;
+    height: 100px;
+    clear: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    /* margin-top:auto; */
+    font-size: xx-large;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    float:left;
+}
+
+.winner-text {
+    /* float:left; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    clear:both;
+}
+.winner {
+    border: 3px solid red ;
+}

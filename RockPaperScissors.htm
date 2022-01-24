@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="RockPaperScissors.js"></script>
+        <link rel="stylesheet" href="RockPaperScissors.css">
+        <title>💎, 🧻, ✂️</title>
+    </head>
+    <body class="gameBackground">
+        <div class="container flex jc-center ai-center">
+            <div class="hand-container flex jc-center ai-center" style="flex-direction:row">
+                <div class="hand flex jc-center ai-center shadow br-10" id="hand1"></div>
+                <div class="hand flex jc-center ai-center shadow br-10" id="hand2"></div>
+            </div>
+            <p class="winner-text shadow br-10" id="winner_text">Click Run to play!</p>
+            <button type="button" id="btn" class="shadow br-10">Run</button>
+        </div>
+        <script>
+            initialize();
+        </script>
+    </body>
+</html>
